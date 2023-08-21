@@ -2155,17 +2155,17 @@ button:focus {
         }
 
 .btn-warning {
-    color: #ffffff;
-    background-color: #f8ac59;
-    border-color: #f8ac59;
+    color: #000000 /*#ffffff*/;
+    background-color: #FFCA00 /*#f8ac59*/;
+    border-color: #FFCA00 /*#f8ac59*/;
 }
 
     .btn-warning:hover,
     .btn-warning:focus,
     .btn-warning.focus {
-        color: #ffffff;
-        background-color: #f7a54a;
-        border-color: #f7a54a;
+        color: #000000 /*#ffffff*/;
+        background-color: #FFCA00 /*#f7a54a*/;
+        border-color: #FFCA00 /*#f7a54a*/;
     }
 
     .btn-warning.disabled,
@@ -2178,9 +2178,9 @@ button:focus {
     .btn-warning:not(:disabled):not(.disabled):active,
     .btn-warning:not(:disabled):not(.disabled).active,
     .show > .btn-warning.dropdown-toggle {
-        color: #ffffff;
-        background-color: #f7a54a;
-        border-color: #f7a54a;
+        color: #000000 /*#ffffff*/;
+        background-color: #FFCA00 /*#f7a54a*/;
+        border-color: #FFCA00 /*#f7a54a*/;
     }
 
         .btn-warning:not(:disabled):not(.disabled):active:focus,
@@ -6126,7 +6126,7 @@ table.table-mail tr td {
     .ibox-tools a {
         cursor: pointer;
         margin-left: 5px;
-        color: #c4c4c4 !important;
+       /* color: #c4c4c4 !important;*/
     }
 
         .ibox-tools a.btn-primary {

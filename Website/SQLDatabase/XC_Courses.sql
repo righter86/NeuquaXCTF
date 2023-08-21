@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Courses]
+(
+	[CourseId] INT NOT NULL PRIMARY KEY,
+	[Name] VARCHAR (50) NOT NULL,
+	[City] VARCHAR (50) NOT NULL,
+	[State] VARCHAR (2) NOT NULL,
+	[Distance] DECIMAL(3,2) NOT NULL
+)

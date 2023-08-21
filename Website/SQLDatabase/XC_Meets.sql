@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Meets]
+(
+	[MeetId] INT NOT NULL PRIMARY KEY,
+	[Date] DATE NOT NULL,
+	[Name] VARCHAR (50) NOT NULL,
+	[CourseId] INT NULL
+)
